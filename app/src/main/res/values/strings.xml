@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gym Drive</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_msg">Bienvenue sur Gymdrive</string>
+    <string name="start">Cliquez pour continuer</string>
+    <string name="connexion_username">Nom / Prénom</string>
+    <string name="connexion_place">Choisissez le point de livraison</string>
+    <string name="continu">Continuer</string>
+
+</resources>
