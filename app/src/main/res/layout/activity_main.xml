@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-    </android.support.design.widget.AppBarLayout>
+    </RelativeLayout>
 
     <include layout="@layout/content_main" />
 
@@ -24,10 +24,13 @@
         android:textSize="20pt"
         android:text="@string/welcome_msg" />
 
+
+
     <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:paddingBottom="5pt"
         android:layout_marginTop="100pt"
         android:background="@color/color_red"
@@ -36,4 +39,4 @@
         android:fontFamily="monospace"
         android:text="@string/start" />
 
-</android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>
